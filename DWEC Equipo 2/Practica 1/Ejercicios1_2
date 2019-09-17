@@ -1,0 +1,33 @@
+//Ejercicio 1:
+
+
+Tema 1:
+Una aplicación web se le denomina alas aplicaciones que utilizan los usuarios mediante un servidor web en internet o una intranet
+de un navegador mediante un protocolo que suele ser http o https. Se podría decir que una aplicación web es una página web
+dinámica. Estas se generan con un formato estandar (HTML o XHTML) y se utilizan lenguajes tales como 
+JavaScript, Java, Flash,... para poder así añadir elementos dinámicos a la interfaz de usuario.
+Generalmente se envia como documento estático pero con la secuencia de páginas se hace interactiva.
+
+Las aplicaciones web utilizan una arquitectura cliente servidor, siendo los servidores los que se
+ocupan de gestionar unidades de disco, impresoras, datos o aplicaciones, mientras que los clientes
+unicamente utilizan los recursos que ofrecen los servidores. Esto implica una relación entre procesos que solicitan
+servicios y procesos que responden a estos servicios separando así la dunciones según su servicio.
+Existen tres niveles, la lógica de presentación encargada de la entrada y salida de la aplicación.
+La lógica de negocio, encargada de gestionar los datos a nivel de procesamiento. Y la lógica de datos,
+encargada de gestionar los datos a nivel de almacenamiento. 
+
+
+
+
+//Ejercicio 2:
+
+En 1995 nace JavaScript tras 10 días de trabajo por Brendan Eich trabajador de Netscape. El nombre fue basado en
+el lenguaje de programación de java ya que era el más popular de la época y trato de aprovechar
+un poco esa fama. Pero el nombre y algunos aspectos de sintaxis son las unicas similitudes ya que
+tenian una finalidad y filosofia distinta.
+En 2996 Netscape paso JavaScript a una empresa internacional, Ecma International. Hoy en día Ecma
+se define como un organismo que asocia a productores de tecnologías de información y comunicación.
+Su primera versión de JavaScript fue lanzada en 1997.
+Al principio JavaScript al ser un lenguaje hecho en un periodo tan breve, daba muchos fallos
+que impedian el trabajo, pero con el tiempo JavaScript ha ido mejorando y hoy en día es uno de
+los lenguajes más usados y el principal de muchas empresas.
