@@ -15,3 +15,5 @@ array [1][0]=num3;
 array [1][1]=num4;
 array [1][2]=num3+num4;
 alert(array [0][0].toString()+" + "+array [0][1].toString()+" = "+array [0][2].toString()+"\n"+array [1][0].toString()+" + "+array [1][1].toString()+" = "+array [1][2].toString())
+
+
