@@ -15,7 +15,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DWEC Equipo 2/Practica 2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +39,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569250006011</updated>
-      <workItem from="1569250007111" duration="4849000" />
+      <workItem from="1569250007111" duration="5099000" />
+      <workItem from="1569264907564" duration="10000" />
     </task>
     <servers />
   </component>
@@ -51,7 +52,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
