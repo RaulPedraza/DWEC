@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="Ejercicio5.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <p> <label>Nombre: <input type="text" name="nombre" id="name"></label> </p>
+
+        <p> <label>Apellidos: <input type="text" name="apellidos" id="apellidos"></label> </p>
+
+        <p> <label>Correo electronico: <input type="email" name="email" id="email"></label> </p>
+
+        <p> <label>Poblacion: <input type="text" name="poblacion" id="poblacion"></label> </p>
+
+        <p> <label>Provincia: <input type="text" name="provincia" id="provincia"></label> </p>
+
+        <p>Edad: </p>
+        <p> <label><input type="radio" name="edad" value="0-20"> 0-20</label> </p>
+        <p> <label><input type="radio" name="edad" value="20-40"> 20-40</label> </p>
+        <p> <label><input type="radio" name="edad" value="40-60"> 40-60</label> </p>
+        <p> <label><input type="radio" name="edad" value="60-100"> 60-100</label> </p>
+
+        <p>¿Cómo nos has conocido?</p>
+        <p> <label><input type="checkbox" name="conocer" value="amigo">A traes de un amigo</label></p>
+        <p> <label><input type="checkbox" name="conocer" value="buscador">A traves de un buscador</label></p>
+        <p> <label><input type="checkbox" name="conocer" value="red">Navegador por la red</label></p>
+        <p> <label><input type="checkbox" name="conocer" value="otros">Otros</label></p>
+
+        <button onclick="comprobar()">Enviar formulario</button>
+        <button onclick="borrar()">Borrar formulario</button>
+    </form>
+</body>
+</html>
