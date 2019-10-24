@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="Ejercicio3.js"></script>
 </head>
 <body>
-    <p> <input type="button" value="Añadir"> </p>
-    <p> <input type="button" value="Añadir al principio"> </p>
-    <p>
-        <input type="text" name="posicion" id="posicionA">
-        <input type="button" value="Añadir" id="añadirPos">
-    </p>
-    <p><input type="button" value="Borrar"></p>
-    <p><input type="button" value="Borrar al pricipio"></p>
-    <p>
-        <input type="text" name="posicion" id="posicionB">
-        <input type="button" value="Borrar" id="borrarPos">
-    </p>
+    <input type="button" value="Añadir" onclick="añadir()">
+    <input type="button" value="Añadir al principio" onclick="añadirInicio()">
+    <input type="text" name="posicion" id="posicionA">
+    <input type="button" value="Añadir Posición" id="añadirPos" onclick="añadirPos()">
+
+    </br>
+
+    <input type="button" value="Borrar" onclick="borrar()">
+    <input type="button" value="Borrar al principio" onclick="borrarInicio()">
+    <input type="text" name="posicion" id="posicionB">
+    <input type="button" value="Borrar Posición" id="borrarPos" onclick="borrarPos()">
+
+    </br>
+
+    <form id ="formulario">
+        <p> Nombre1: <input type="text"> </p>
+    </form>
 </body>
 </html>
