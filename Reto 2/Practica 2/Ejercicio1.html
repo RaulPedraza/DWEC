@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Ejercicio1.js"></script>
+</head>
+<body onload="ocultar()">
+    <h1>Contactos</h1>
+    <input type="button" name="bAñadir" value="Añadir" onclick="verAñadir()">
+    <input type="button" name="bBuscar" value="Buscar" onclick="verBuscar()">
+
+    <div id="formAñadir">
+        <h2>Añadir Contacto</h2>
+        <input type="button" name="añadirCampo" value="Añadir Campo" onclick="añadirCampo()">
+        <form id="añadir">
+            <p>Nombre: <input type="text" name="nombre"> </p>
+            <p>Organización: <input type="text" name="org"> </p>
+            <p>Móvil: <input type="text" name="movil"></p>
+            <input type="submit" name="añadir" value="Añadir Contacto">
+        </form>
+    </div>
+
+    <div id="formBuscar">
+        <h2>Buscar Contacto</h2>
+        <form>
+            <p>Nombre: <input type="text" name="nombre"> </p>
+            <p>Organización:
+                <select></select>
+            </p>
+            <input type="submit" name="buscar" value="Buscar Contacto">
+        </form>
+    </div>
+</body>
+</html>
