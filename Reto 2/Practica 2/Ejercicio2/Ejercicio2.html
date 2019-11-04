@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Ejercicio2.js"></script>
+
+</head>
+<body onload="llenarCbGeneros()">
+    <h1>ALTA DE LIBROS</h1>
+
+    <p> TITULO: <input type="text" name="titulo"></p>
+    <p>ISBN: <input type="text" name="isbn"></p>
+    <p>TIPO:
+        <select id="generos">
+
+        </select>
+    </p>
+
+    <h2>AUTOR</h2>
+
+    <div id="autor">
+        <p>DNI: <input type="text" name="dni"></p>
+        <p>NOMBRE Y APELLIDOS: <input type="text" name="nombreApellidos"></p>
+    </div>
+
+        <input type="button" name="bAñadirAutor" value="+ Autores" onclick="nuevoAutor()">
+
+    <p>NUMERO DE EJEMPLARES: <input type="number" name="numEjemplares"></p>
+    <p>DISPONIBLE:
+        SI<input type="radio" name="disponible" value="si">
+        NO<input type="radio" name="disponible" value="no">
+    </p>
+    <p>FECHA A PARTIR DE LA CUAL ESTARA DISPONIBLE: <input type="text" name="fechaDisponible"></p>
+
+    <input type="button" name="bEnviar" value="Enviar">
+</body>
+</html>
