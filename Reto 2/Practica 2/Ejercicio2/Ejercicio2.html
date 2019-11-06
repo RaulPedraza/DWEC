@@ -9,8 +9,8 @@
 <body onload="llenarCbGeneros()">
     <h1>ALTA DE LIBROS</h1>
 
-    <p> TITULO: <input type="text" name="titulo"></p>
-    <p>ISBN: <input type="text" name="isbn"></p>
+    <p> TITULO: <input type="text" name="titulo" id="titulo"></p>
+    <p>ISBN: <input type="text" name="isbn" id="isbn"></p>
     <p>TIPO:
         <select id="generos">
 
@@ -20,19 +20,19 @@
     <h2>AUTOR</h2>
 
     <div id="autor">
-        <p>DNI: <input type="text" name="dni"></p>
-        <p>NOMBRE Y APELLIDOS: <input type="text" name="nombreApellidos"></p>
+        <p>DNI: <input type="text" name="dni" class="dni"></p>
+        <p>NOMBRE Y APELLIDOS: <input type="text" name="nombreApellidos" class="nombreApellidos"></p>
     </div>
 
-        <input type="button" name="bAñadirAutor" value="+ Autores" onclick="nuevoAutor()">
+    <input type="button" name="bAñadirAutor" value="+ Autores" onclick="nuevoAutor()">
 
-    <p>NUMERO DE EJEMPLARES: <input type="number" name="numEjemplares"></p>
+    <p>NUMERO DE EJEMPLARES: <input type="number" name="numEjemplares" id="numEjemplares"></p>
     <p>DISPONIBLE:
-        SI<input type="radio" name="disponible" value="si">
-        NO<input type="radio" name="disponible" value="no">
+        SI<input type="radio" name="disponible" value="si" id="si" onclick="cajaFecha(false)">
+        NO<input type="radio" name="disponible" value="no" id="no" onclick="cajaFecha(true)">
     </p>
-    <p>FECHA A PARTIR DE LA CUAL ESTARA DISPONIBLE: <input type="text" name="fechaDisponible"></p>
+    <p>FECHA A PARTIR DE LA CUAL ESTARA DISPONIBLE: <input type="text" name="fechaDisponible" id="fechaDisponible" placeholder="dd/MM/yyyy" disabled></p>
 
-    <input type="button" name="bEnviar" value="Enviar">
+    <input type="button" name="bEnviar" value="Enviar" onclick="añadirLibro()">
 </body>
 </html>
