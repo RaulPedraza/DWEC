@@ -84,31 +84,25 @@ function añadirLibro(){
 
 
 function validarDatos(isbn,fecha){
-    let respuestaISBN = validarISBN(isbn)
+    alert (fecha)
+    /*let respuestaISBN = validarISBN(isbn)*/
+    let respuestaFecha = validarFecha(fecha)
     alert (respuestaISBN)
-    /*let respuestaFecha = validarFecha(fecha)*/
 }
 
 function validarISBN(isbn){
-    isbnRegExp = new RegExp("^(978 | 979)\-[0-9]{1,5}\-[0-9]{1,7}\-[0-9]{1,6}\-[0-9]$")
+    isbnRegExp = new RegExp("^(978|979)\-[0-9]{1,5}\-[0-9]{1,7}\-[0-9]{1,6}\-[0-9]$")
 
     if (isbnRegExp.test(isbn)){
         return true
     }else
         return false
 }
-
+// (0[1-9] | 1[0-2])[0-9]{4}$
 function validarFecha(fecha){
-    if (fecha != ""){
-        let fechaRegExp = new RegExp ("^([0-2][0-9] | 3[0-1])\/(0[1-9] | 1[0-2])\/[0-9]{4}$")
+        fechaRegExp = new RegExp ("^([0-2][0-9]|[3][0-1])\/(0[1-9]|1[0-2])\/[0-9]{4}$")
         if (fechaRegExp.test(fecha)){
-            let hoy = new Date()
-            hoy.setHours(0,0,0,0)
-            if (hoy <= fecha) {
-                return true
-            }else
-                return false
-        }
-    }else
-        return ""
+            alert ("bien")
+        }else
+            alert ("mal")
 }
